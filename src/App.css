@@ -1,0 +1,20 @@
+.App {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+button {
+  background-color: white;
+  border: 2px solid #ccc;
+  padding: 12px 20px;
+  cursor: pointer;
+  border-radius: 20px;
+}
+
+button span {
+  color: black;
+  font-size: 16px;
+  font-weight: 500;
+}
