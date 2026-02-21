@@ -18,3 +18,21 @@ button span {
   font-size: 16px;
   font-weight: 500;
 }
+
+.App {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.google-btn {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  background-color: white;
+  border: 1px solid #ccc;
+  padding: 12px 20px;
+  cursor: pointer;
+  color: black;
+}
