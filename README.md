@@ -18,3 +18,4 @@ npm start
 
 ## Deploy
 firebase deploy
+ss
