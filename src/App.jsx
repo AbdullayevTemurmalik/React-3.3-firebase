@@ -13,11 +13,11 @@ function App() {
   };
 
   return (
-    <>
+    <div className="App">
       <button>
         <span onClick={LoginWithGoogle}>Sign Up with Google</span>
       </button>
-    </>
+    </div>
   );
 }
 
