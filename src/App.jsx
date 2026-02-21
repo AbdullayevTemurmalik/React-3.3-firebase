@@ -1,6 +1,7 @@
 import "./App.css";
-import { signInWithPopup, signOut } from "firebase/auth";
+import { signInWithPopup } from "firebase/auth";
 import { auth, provider } from "./firebase";
+import { Chrome } from "lucide-react"; // 👈 Google icon (Chrome)
 
 function App() {
   let LoginWithGoogle = async () => {
@@ -14,8 +15,9 @@ function App() {
 
   return (
     <div className="App">
-      <button>
-        <span onClick={LoginWithGoogle}>Sign Up with Google</span>
+      <button onClick={LoginWithGoogle} className="google-btn">
+        <Chrome size={20} />
+        <span>Sign Up with Google</span>
       </button>
     </div>
   );
