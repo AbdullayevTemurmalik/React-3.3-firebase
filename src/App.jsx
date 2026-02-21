@@ -1,7 +1,7 @@
 import "./App.css";
 import { signInWithPopup } from "firebase/auth";
 import { auth, provider } from "./firebase";
-import { Chrome } from "lucide-react"; // 👈 Google icon (Chrome)
+import { Chrome } from "lucide-react";
 
 function App() {
   let LoginWithGoogle = async () => {
