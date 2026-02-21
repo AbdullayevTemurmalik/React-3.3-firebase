@@ -1,4 +1,5 @@
 import "./App.css";
+import { signInWithPopup, signOut } from "firebase/auth";
 
 function App() {
   return (
