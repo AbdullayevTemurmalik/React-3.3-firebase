@@ -15,7 +15,7 @@ function App() {
   return (
     <>
       <button>
-        <span onClick={LoginWithGoogle}>SignU with Google</span>
+        <span onClick={LoginWithGoogle}>Sign Up with Google</span>
       </button>
     </>
   );
