@@ -17,4 +17,4 @@ Bu loyiha Firebase yordamida yaratilgan.
 npm start
 
 ## Deploy
-firebase deploy !
+firebase deploy !!
